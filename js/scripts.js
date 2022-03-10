@@ -1,6 +1,11 @@
-$(document).ready(function () {
-  $(".clickable").click(function () {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
-  });
+.$(document).ready(function () {
+    $("button#green").click(function () { 
+        .$("body").addClass("green-background");
+    });
+    $("button#yellow").click(function () {
+        .$("body").addClass("yellow-bakcground");
+    });
+    .$("button#red").click(function () { 
+        
+    });
 });
